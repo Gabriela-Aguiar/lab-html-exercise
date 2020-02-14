@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+  form label {
+    color: rgba(0,0,0,.05);
+  }
+
+  form input {
+      border: none;
+      width: 950px;
+      height: 30px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+  }
+
+  form button {
+      background-color: #fb3e44;
+      color: white;
+      height: 40px;
+      border: none;
+      margin-left: -10px;
+      width: 80px;
+  }
+  .form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .npm-logo {
+      width: 50px;
+  }
+
+  .glass {
+      height: 20px;
+      margin: 10px 0px;
+      background-color: rgba(0,0,0,.05);
+      padding-top: 6px;
+      padding-bottom: 6px;
+  }
+  input[type="text"] {
+    background-color: rgba(0,0,0,.05);
+  }
+
+  .join {
+      color: gray;
+      border: solid 1px gray;
+      padding: 5px 25px;
+      text-decoration: none;
+  }
+
+  .log {
+    color: gray;
+    padding: 5px 25px;
+    text-decoration: none;
+  }
+
+  #firstSection {
+    background-color: rgba(232,217,217,.3);
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plans {
+      background-color: #FB3B49;
+      box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+      width: 150px;
+      height: 40px;
+      border: none;
+      margin-top: 40px;
+  }
+
+  .plans > a {
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+  }
+
+ #firstSection > h1 {
+     font-size: 70px;
+     padding: 0;
+     margin: 0;
+ }
+
+ #firstSection > article {
+     width: 25%;
+     font-size: 15px;
+     margin-top: 20px;
+     text-align: justify;
+ }
+
+ .free {
+     color: black;
+     text-decoration: none;
+     margin-left: 100px;
+     font-weight: bolder;
+ }
+
+ #secondSection {
+     background-color: gba(255,204,53,.4);
+     display: flex;
+    justify-content: center;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .hexagon {
+     width: 200px;
+     margin-bottom: 30px;
+ }
+
+ #secondSection > h2 {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    background-color: #fff3d1;
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    width: 750px;
+    text-align: center;
+ }
+
+ #secondSection > article {
+     width: 40%;
+     text-align: center;
+ }
+
+ .image {
+     width: 30px;
+ }
+
+ #thirdSection {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+ }
+
+
+ .title {
+     color: #ED1C24;
+     font-size: 15px;
+     margin-top: 5px;
+ }
+
+ .text {
+     width: 200px;
+ }
+
+ .last {
+    background-color:black;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    width: 300px;
+    height: 40px;
+ }
+ 
+ .last > a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
